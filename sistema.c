@@ -15,7 +15,7 @@ void parar()
 #ifdef RUN_WINDOWS
 system("pause");
 #else 
-system("read -p 'presiones alguna tecla\n' var");
+system("read -p 'Presione alguna tecla\n' var");
 #endif 
 }
 
