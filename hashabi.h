@@ -1,0 +1,1 @@
+extern void hash_abierto(_nodo *tab[]);
