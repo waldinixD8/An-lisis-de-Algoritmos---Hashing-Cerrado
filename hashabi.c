@@ -15,7 +15,7 @@ void hash_abierto(_nodo *tab[])
 	while(salir!=0)
 	{   
 		limpiar();
-		printf("introduzca un numero\n");
+		printf("Introduzca un numero\n");
 		scanf("%d",&nu);
 		parar();
 		limpiar();
@@ -25,7 +25,7 @@ void hash_abierto(_nodo *tab[])
 		  lista = tab[pos];
 		  lista = insert(nu,lista);
 		  tab[pos]=lista;
-		printf("si desea imprimir presione 1\n si desea continuar presione 0");
+		printf("Si desea imprimir presione 1\n Si desea continuar presione 0");
 		scanf("%d",&impri);
 		parar();
 		limpiar();
@@ -44,7 +44,7 @@ void hash_abierto(_nodo *tab[])
 		}
 		
 		
-		printf("si desea continuar presione 1\n si desea salir presione 0");
+		printf("Si desea continuar presione 1\n Si desea salir presione 0");
 		scanf("\n%d",&salir);
 		fflush(stdin);
 		parar();
