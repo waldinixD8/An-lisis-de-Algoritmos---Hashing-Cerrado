@@ -24,13 +24,13 @@ void hash_cerrado(_registro tab[])
 			full=colicion(tab,posi,numero);
 			if (full==0)
 			{
-				printf("\nEl vector ya esta lleno en su totalida\ngracias por usar este programa.....\n");
+				printf("\nEl vector ya esta lleno en su totalidad");
 				system("pause");
 				salir=0;
 			}
 			else
 			{
-				printf("si desea imprimir el vector pulse 1\nsino pulse cualquier numero\n");
+				printf("Si desea imprimir el vector pulse 1\nsino pulse cualquier numero\n");
 				scanf("%d",&impri);
 				fflush(stdin);
 				parar();
@@ -38,7 +38,7 @@ void hash_cerrado(_registro tab[])
 				imprimir(tab);
 				parar();
 				limpiar();
-				printf("si desea salir pulse:0\n sino pulse:1\n");
+				printf("Si desea salir pulse:0\n sino pulse:1\n");
 				scanf("%d",&salir);
 				parar();
 				fflush(stdin);
@@ -47,14 +47,14 @@ void hash_cerrado(_registro tab[])
 		}
 		else
 		{
-		printf("si desea imprimir el vector pulse 1\n");
+		printf("Si desea imprimir el vector pulse 1\n");
 		scanf("%d",&impri);
 		fflush(stdin);
 		if(impri==1)
 		imprimir(tab);
 		parar();
 		limpiar();
-		printf("si desea salir pulse 0 sino pulse 1\n");
+		printf("Si desea salir pulse 0 sino pulse 1\n");
 		scanf("%d",&salir);		
 		fflush(stdin);
 		parar();
